@@ -13,10 +13,14 @@
 \begin{enumerate}
 
 \item % PAMO Shortlist 2017 Combinatorics Exercise 1
-Abimbola plays heads or tails with a coin. A sequence of tosses is said to be
-admissable if he gets an odd number of consecutive ``heads" followed by one
-``tail". (For instance, HHHHTTHHTHT is admissable, but THHHHTTHHT is not
-admissable.) How many admissable tosses of length $n$ do we have?
+Abimbola plays a game with a coin. He tosses the coin a number of times, and
+records whether each toss was a ``heads" or ``tails". He stops tossing the coin
+as soon as he tosses an odd number of heads in a row, followed by a tails.
+(Note that he stops if the number of heads since the previous time that he
+tosses tails is odd, and he then tosses another tails. If he has not tossed
+tails previously, then he stops if the total number of heads is odd, and he then
+tosses tails.) How many different sequences of coin tosses are there such that
+he stops after the $n^\text{th}$ coin toss?
 
 \item % PAMO Shortlist 2017 Algebra Exercise 4
 Find all functions $f: \mathbb{R} \to \mathbb{R}$ satisfying $f(f(x) + y) = f(x^2
